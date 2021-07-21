@@ -7,7 +7,8 @@ Jinja2>=2.11.2
 MarkupSafe==2.0
 Werkzeug==2.0
 gunicorn>=20.0.4
-torch==1.6.0+cpu
-torchvision==0.7.0+cpu
+torch==1.7.1+cpu
+torchvision==0.8.2+cpu
+torchaudio==0.7.2
 albumentations
 tqdm
