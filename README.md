@@ -1,7 +1,4 @@
-# Flask/Pytorch/Docker starter app
-
 This App main purpose is just to make the work we have done on our computer vision module looks more useful. Being able to see result of the implementation of one of the most popular papers in biomedical image segmentation on the blood cells just by few clicks is one of the things we aim for to deliver a high quality project
-
 
 
 ## Getting Started (using Python virtualenv)
