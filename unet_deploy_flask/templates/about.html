@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <div class="px-3 py-3 text-center">
+            <h1 class="display-4">About this project</h1>
+            <div class="my-2">
+                <img style="max-width: 600px; width: 100%;" src="{{ url_for('static', filename='img/flask+pytorch.png') }}" alt="">
+            </div>
+            <p class="lead">This project is an interface implementation of the work done by Safoine Elkhabich , Hamza Raouzi & Younes Ouassine on the blood cell segmentation project in computer vision module of data science master program 'Intelligent Processing Systems' at Faculté of science of Rabat, Morocco</p>
+            <p>
+                this is only a prototype and it's not meant to be published publicly
+            </p>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
