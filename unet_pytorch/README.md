@@ -1,28 +1,14 @@
-This App main purpose is just to make the work we have done on our computer vision module looks more useful. Being able to see result of the implementation of one of the most popular papers in biomedical image segmentation on the blood cells just by few clicks is one of the things we aim for to deliver a high quality project
+This App main purpose is just to make the work we have done on our computer vision module looks more useful. Being able to see result of the implementation of one of the most popular papers in biomedical image segmentation on the blood cells just by few clicks is one of the things we aim for to deliver a high quality project. and this directory you will find a pytorch implementation for U-net architecture form scratch with dataset 
+of white blood cell segmentation.
 
 
-## Getting Started (using Python virtualenv)
+## Getting Started 
 
 You need to have Python installed in your computer.
 
-1. Install `virtualenv`: 
+1. Install `pytorch `: 
     ```
-    pip install virtualenv
-    ```
-2. Create a Python virtual environment:
-    ```
-    virtualenv venv
-    ```
-3. Activate virtual environment:
-    1. Windows:
-    ```
-    cd venv\Scripts
-    activate
-    cd ..\..
-    ```
-    2. Lunix / Mac:
-    ```
-    source venv/bin/activate
+    pip install pytorch
     ```
 4. Install libraries:
    
@@ -32,11 +18,8 @@ You need to have Python installed in your computer.
 
 ### Run the code
 
-* Run the app:
-    ```
-    flask run
-    ```
-* Run on a specific port:
-    ```
-    flask run -p <port>
-    ```
+* start training:
+    1. call the function main()
+    
+   
+
